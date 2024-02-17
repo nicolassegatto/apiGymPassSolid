@@ -21,14 +21,14 @@ Gympass Style App
 - [x] O usuario nao pode fazer 2 check-ins no mesmo dia;
 - [x] O usuario nao pode fazer check-in se nao estiver perto (100m) da academia;
 - [x] O check-in so pode ser validado ate 20 minutos apos criado;
-- [] O check-in so pode ser validado por administradores;
-- [] A academia so pode ser cadastrada por administradores;
+- [x] O check-in so pode ser validado por administradores;
+- [x] A academia so pode ser cadastrada por administradores;
 
 ## RNFs (Requisitos nao funcionais)
 
 - [x] A senha do usuário precisa estar criptografada
 - [x] Os dados da aplicacao precisam estar persistidos em um banco postgreSQL
 - [x] Todas listas de dados precisam estar paginadas com 20 itens por pagina.
-- [] O usuário deve ser identificado por um JWT (JSON Web Token)
+- [x] O usuário deve ser identificado por um JWT (JSON Web Token)
 
 --- ➜  API-SOLID docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql ---
